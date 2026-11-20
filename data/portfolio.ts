@@ -183,13 +183,13 @@ export const certifications: Certification[] = [
     title: "Foundations of Digital Marketing and E-commerce",
     issuer: "Google",
     platform: "Coursera",
-    link: "https://www.coursera.org/organizations/uncommon/my-learning?myLearningTab=COMPLETED",
+    link: "https://www.coursera.org/organizations/uncommon/my-learning?myLearningTab=CERTIFICATES",
   },
   {
     title: "Introduction to Software Engineering",
     issuer: "IBM",
     platform: "Coursera",
-    link: "https://www.coursera.org/organizations/uncommon/my-learning?myLearningTab=COMPLETED",
+    link: "https://www.coursera.org/organizations/uncommon/my-learning?myLearningTab=CERTIFICATES",
   },
 ];
 
