@@ -15,13 +15,13 @@ export const site = {
   tagline:
     "I build digital solutions that make a difference, from the interface down to the database.",
   location: "Lupane West, Gwayi, Zimbabwe",
-  email: "mduduzim39@gmail.com",
+  email: "www.mduduzim39@gmail.com",
   
   cvUrl: "/Mduduzi-Mpofu-CV.pdf",
  
   socials: [
-    { label: "GitHub", href: "https://github.com/your-username" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/your-username" },
+    { label: "GitHub", href: "https://github.com/mdue39" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/mduduzi-mpofu-24408617b" },
   ],
 };
 
@@ -85,10 +85,9 @@ export const services: { icon: LucideIcon; title: string; text: string }[] = [
 
 export type Project = {
   title: string;
-  image?: string; 
+  image?: string;
   description: string;
   tech: string[];
-  
   links?: { label: string; href: string }[];
 };
 
@@ -108,7 +107,7 @@ export const projects: Project[] = [
   {
     title: "ELANDS",
     image: "/projects/elands.png",
-    description: "E-commerce clothing website.",
+    description: "E-commerce LP Gas equipments website.",
     tech: ["Django", "HTML", "CSS"],
   },
   {
@@ -127,13 +126,13 @@ export const projects: Project[] = [
     title: "Nyamatusi Camp",
     image: "/projects/nyamatusi-camp.png",
     description: "Website for Nyamatusi Camp.",
-    tech: ["React"],
+    tech: ["React", "Tailwind CSS"],
   },
   {
     title: "QuizApp",
     image: "/projects/quizapp.png",
     description: "An interactive quiz application.",
-    tech: [], 
+    tech: ["JavaScript", "HTML", "CSS"], 
   },
   {
     title: "Netflix UI/UX",
@@ -148,7 +147,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "Digital Marketing Crash Course",
+    title: "Digital Marketing",
     image: "/projects/digital-marketing.png",
     description:
       "Social media reel for Cimas Medical Aid Zimbabwe, plus posters and a marketing strategy, all designed in Canva.",
@@ -170,23 +169,27 @@ export type Certification = {
   title: string;
   issuer: string; 
   platform?: string; 
-  link?: string; 
+  link?: string;
 };
 
 export const certifications: Certification[] = [
   {
     title: "Product Design",
     issuer: "Uxcel",
+    platform: "Uxcel",
+    link: "https://app.uxcel.com/certificates/ENYFECRH0Z7F",
   },
   {
     title: "Foundations of Digital Marketing and E-commerce",
     issuer: "Google",
     platform: "Coursera",
+    link: "https://www.coursera.org/organizations/uncommon/my-learning?myLearningTab=COMPLETED",
   },
   {
     title: "Introduction to Software Engineering",
     issuer: "IBM",
     platform: "Coursera",
+    link: "https://www.coursera.org/organizations/uncommon/my-learning?myLearningTab=COMPLETED",
   },
 ];
 
@@ -194,7 +197,6 @@ export type Experience = {
   icon: LucideIcon;
   role: string;
   description: string;
- 
   links?: { label: string; href: string }[];
 };
 
@@ -204,15 +206,13 @@ export const experiences: Experience[] = [
     role: "Auto Mechanic",
     description:
       "Hands-on vehicle diagnostics, servicing and repairs, which built my patience, attention to detail and problem-solving skills.",
-      links: [{ label: "View my work on Facebook", href: "https://www.facebook.com/profile.php?id=61595346498012" }],
-   
+     links: [{ label: "View my work on Facebook", href: "https://www.facebook.com/profile.php?id=61595346498012" }],
   },
   {
     icon: Shapes,
     role: "Sculptor (Pottery)",
     description:
       "Handcrafting pottery and sculptural pieces, which fuels the creativity and sense of form I bring into design.",
-      links: [{ label: "View my work on Facebook", href: "https://www.facebook.com/profile.php?id=100068801413728" }],
-    
+    links: [{ label: "View my work on Facebook", href: "https://www.facebook.com/profile.php?id=100068801413728" }],
   },
 ];

@@ -10,7 +10,7 @@ export default function About() {
         title="Building Solutions That Make an Impact"
       />
       <div className="grid gap-8 md:grid-cols-5">
-        <div className="space-y-4 leading-relaxed md:col-span-3">
+        <div className="space-y-4 text-sm leading-relaxed md:col-span-3">
           {aboutParagraphs.map((p) => (
             <p key={p}>{p}</p>
           ))}
